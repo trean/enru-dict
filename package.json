@@ -1,0 +1,32 @@
+{
+  "name": "ruen-dict",
+  "version": "1.0.0",
+  "description": "ru-en dictionary as object",
+  "main": "dict.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liudmila Vasnetsova <trean.mi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trean/ruen-dict.git"
+  },
+  "keywords": [
+    "ru",
+    "en",
+    "dictionary",
+    "ru-en",
+    "russian",
+    "english",
+    "dict"
+  ],
+  "bugs": {
+    "url": "https://github.com/trean/ruen-dict/issues"
+  },
+  "homepage": "https://github.com/trean/ruen-dict#readme"
+}
