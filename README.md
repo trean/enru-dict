@@ -1,7 +1,13 @@
-# enru-dict
+# enru-dict #
 en-ru dictionary as object
 
-# Usage
+## Install ##
+
+```
+npm install enru-dict
+```
+
+## Usage ##
 
 ``` javascript
 var dict = require("enru-dict").dict;
