@@ -1,2 +1,2 @@
-# ruen-dict
-ru-en dictionary as object
+# enru-dict
+en-ru dictionary as object

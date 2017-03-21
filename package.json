@@ -1,5 +1,5 @@
 {
-  "name": "ruen-dict",
+  "name": "enru-dict",
   "version": "1.0.0",
   "description": "ru-en dictionary as object",
   "main": "dict.min.js",
@@ -14,19 +14,20 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/trean/ruen-dict.git"
+    "url": "git+ssh://git@github.com/trean/enru-dict.git"
   },
   "keywords": [
-    "ru",
     "en",
+    "ru",
     "dictionary",
-    "ru-en",
-    "russian",
+    "en-ru",
     "english",
-    "dict"
+    "russian",
+    "dict",
+    "enru-dict"
   ],
   "bugs": {
-    "url": "https://github.com/trean/ruen-dict/issues"
+    "url": "https://github.com/trean/enru-dict/issues"
   },
-  "homepage": "https://github.com/trean/ruen-dict#readme"
+  "homepage": "https://github.com/trean/enru-dict#readme"
 }
