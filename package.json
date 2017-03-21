@@ -1,6 +1,6 @@
 {
   "name": "enru-dict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ru-en dictionary as object",
   "main": "dict.min.js",
   "scripts": {
@@ -8,9 +8,6 @@
   },
   "author": "Liudmila Vasnetsova <trean.mi@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "request": "^2.81.0"
-  },
   "devDependencies": {},
   "repository": {
     "type": "git",
