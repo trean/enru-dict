@@ -1,6 +1,6 @@
 {
   "name": "enru-dict",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ru-en dictionary as object",
   "main": "dict.min.js",
   "scripts": {
