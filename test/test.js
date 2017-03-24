@@ -18,6 +18,10 @@ describe('Dictionary test', function () {
       var word = dict["alkalinity"];
       assert.equal(word, "щелочность");
     });
+    it('should return null', function () {
+      var word = enru("ufx");
+      assert.equal(word, null);
+    });
   });
 
   describe('ru-en dict tests', function () {
@@ -28,6 +32,10 @@ describe('Dictionary test', function () {
     it('should return an english word from dict_ru', function () {
       var word = dict_ru["щелочность"];
       assert.equal(word, "alkalinity");
+    });
+    it('should return null', function () {
+      var word = ruen("алло");
+      assert.equal(word, null);
     });
   });
 });

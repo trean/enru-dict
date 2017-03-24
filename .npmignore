@@ -27,9 +27,10 @@ jspm_packages
 # Output of 'npm pack'
 *.tgz
 
+/.idea
 /make-dict-async.js
 /make-dict.js
 /english-words.json
 /swap.js
 /to-translate.json
-/data/not_compressed/
+/not_compressed/
