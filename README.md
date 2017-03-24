@@ -1,5 +1,5 @@
 # enru-dict #
-en-ru dictionary as object
+en-ru and ru-en dictionaries as objects.
 
 ## Install ##
 
