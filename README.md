@@ -9,12 +9,28 @@ npm install enru-dict
 
 ## Usage ##
 
+To use en-ru translate direction:
 ``` javascript
-var dict = require("enru-dict").dict;
+ var enru = require('../dict.js').enru,
 
-function translate(word) {
-    return dict[word];
-}
+ var word = enru('alligator');
+ console.log(word); // 'аллигатор'
+ ```
 
-translate("alligators"); // 'аллигаторы'
+To use ru-en translate direction:
+``` javascript
+var ruen = require('../dict.js').ruen;
+
+var word = ruen('щелочность');
+console.log(word); // 'alkalinity'
+```
+
+Also you can directly call objects:
+
+``` javascript
+var dict = require('enru-dict').dict;    // en-ru direction object
+var dict_ru = require('enru-dict').dict; // ru-en direction object
+
+dict['alkalinity'];    // 'щелочность'
+dict_ru['щелочность']; // 'alkalinity'
 ```
